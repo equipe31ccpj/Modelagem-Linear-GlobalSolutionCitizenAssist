@@ -22,7 +22,7 @@ O aumento contínuo das tarifas de energia elétrica impacta diretamente o orça
 
 ## Descrição da Base de Dados
 * **Nome:** *Household Energy Consumption* (Registros de 2025)
-* **Fonte Original:** Kaggle — [Acesse a base original no Kaggle](https://kaggle.com) *(Nota: insira aqui o link exato da página do dataset no Kaggle)*
+* **Fonte Original:** Kaggle — [Acesse a base original no Kaggle](https://kaggle.com) *(https://www.kaggle.com/datasets/samxsam/household-energy-consumption/data)*
 * **Volume Total:** 90.000 registros originais.
 * **Recorte Amostral:** Foram filtradas **30.437 residências** compostas por **1 a 2 moradores** (`Household_Size <= 2`), adotado como perfil domiciliar representativo de lares da terceira idade (idosos que moram sozinhos ou em casal).
 * **Principais Variáveis Analisadas:**
