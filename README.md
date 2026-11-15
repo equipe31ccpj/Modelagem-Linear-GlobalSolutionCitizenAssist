@@ -63,6 +63,6 @@ Para reproduzir as análises localmente ou no **Google Colab**:
 
 ---
 
-## ⚠️ Limitações Identificadas
+## Limitações Identificadas
 * **Proxy Demográfico:** A base de dados não possui uma coluna explícita informando a idade dos moradores; utilizou-se o tamanho da família (`Household_Size <= 2`) como critério de aproximação para o perfil da terceira idade.
 * **Ausência de Variáveis Socioeconômicas e Tarifárias:** O dataset registra o consumo físico em kWh, mas não contempla bandeiras tarifárias locais, renda domiciliar ou eficiência energética (selo Procel) de cada eletrodoméstico individualmente.
