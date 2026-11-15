@@ -43,7 +43,7 @@ O aumento contínuo das tarifas de energia elétrica impacta diretamente o orça
 
 ---
 
-## ⚙️ Bibliotecas e Execução do Código
+## Bibliotecas e Execução do Código
 Para reproduzir as análises localmente ou no **Google Colab**:
 1. Certifique-se de que o arquivo `household_energy_consumption.csv` esteja no mesmo diretório (ou carregado na pasta `/content/` do Colab).
 2. Instale as dependências necessárias caso execute localmente:
@@ -54,7 +54,7 @@ Para reproduzir as análises localmente ou no **Google Colab**:
 
 ---
 
-## 📈 Síntese dos Principais Resultados
+## Síntese dos Principais Resultados
 * **Distribuição Normal:** O consumo médio diário no perfil sênior é de **4,76 kWh** (mediana de **4,60 kWh** e desvio padrão de **2,34 kWh**). A probabilidade de consumo acima da mediana é de **52,64%** (evento muito provável).
 * **Testes de Hipóteses:** No Teste Z unilateral à esquerda ($n=20, \alpha=6\%$), rejeitou-se $H_0$ ($p = 0,0062$), mostrando que subgrupos específicos podem apresentar consumo significativamente inferior à média geral. No teste unilateral à direita ($n=25, \alpha=9\%$), não houve evidência estatística para rejeitar $H_0$ ($p = 0,1189$).
 * **Regressão Linear Simples:** Existe uma correlação linear positiva fortíssima ($r = 0,9665$) entre o consumo no horário de pico e o consumo total diário ($R^2 = 0,9342$). Para um gasto de **2,5 kWh** no pico, estima-se um consumo total de **5,90 kWh/dia**.
