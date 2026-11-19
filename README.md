@@ -36,8 +36,8 @@ O aumento contínuo das tarifas de energia elétrica impacta diretamente o orça
 ## Organização do Repositório
 ```text
 ├── household_energy_consumption.csv   # Base de dados utilizada nas análises
-├── analise_mlam_seniorwatt.ipynb      # Notebook Python com cálculos, modelos e gráficos
-├── Relatorio_Estatistico_MLAM.pdf     # Relatório técnico completo com interpretações
+├── SeniorWatt_MLAM.ipynb      # Notebook Python com cálculos, modelos e gráficos
+├── Relatorio_SeniorWatt.pdf     # Relatório técnico completo com interpretações
 └── README.md                          # Documentação geral do projeto
 ```
 
